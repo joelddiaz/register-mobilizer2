@@ -1,0 +1,27 @@
+{
+
+  "description": "Rewrites *.theregister.co.uk to m.theregister.co.uk",
+  "manifest_version": 2,
+  "name": "register-mobilizer2",
+  "version": "0.1",
+  "homepage_url": "https://github.com/joelddiaz",
+  "icons": {
+    "48": "icons/elreg-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "hundred17@gmail.com",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "http://theregister.co.uk/*" 
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
