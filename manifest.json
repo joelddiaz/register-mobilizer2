@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "register-mobilizer2",
   "version": "0.1",
-  "homepage_url": "https://github.com/joelddiaz",
+  "homepage_url": "https://github.com/joelddiaz/register-mobilizer2",
   "icons": {
     "48": "icons/elreg-48.png"
   },
